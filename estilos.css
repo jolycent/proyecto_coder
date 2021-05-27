@@ -85,10 +85,9 @@ p{
         background-image:
         linear-gradient(
                 to right, 
-                #fdfdfd,
-                #fdfdfd 75%,
-                #F3C5BC 75%,
-                #F3C5BC 85%
+                #e7d3cf,
+                #F3C5BC 15%,
+                #f8bcb0 85%
               );
           }
 
