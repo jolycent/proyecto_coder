@@ -82,13 +82,7 @@ p{
 /**************ESTILO HOME PRINCIPAL**************/
 
 .gradiente{
-        background-image:
-        linear-gradient(
-                to right, 
-                #e7d3cf,
-                #F3C5BC 15%,
-                #f8bcb0 85%
-              );
+        background-color: #1c7ece;
           }
 
 .seccion{
