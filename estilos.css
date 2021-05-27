@@ -1,0 +1,291 @@
+/*********CONSULTAS**********/
+
+
+/*********ESTILOS CSS**********/
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+  
+  body {
+    width: auto;
+    height: auto;
+}
+/********FUENTES********/
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cinzel', serif;
+*/
+
+
+/*********ESTILOS ENLACES**********/
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #20292F;
+}
+
+#navbarNavAltMarkup a {
+    color: #20292F;
+}
+#navbarNavAltMarkup a:focus {
+    color: #E16C55;
+}
+
+#navbarNavAltMarkup a:hover {
+    color: #E16C55;
+}
+
+/**************ESTILO HEADER CON LOGO Y MENU**************/
+
+.header-1{
+    background-color: #F3C5BC;
+    height: 1.5rem;
+}
+
+.fuente-menu{
+    font-size: 0.8rem;
+    font-weight: medium;
+}
+
+
+/**************FORMATO BOTONES**************/
+
+button{
+    border: none;
+    display: block;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/**************ESTILO TEXTOS**************/
+
+.tituloInterno{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+p{
+    text-align: justify;
+}
+
+/**************ESTILO HOME PRINCIPAL**************/
+
+.gradiente{
+        background-image:
+        linear-gradient(
+                to right, 
+                #fdfdfd,
+                #fdfdfd 75%,
+                #F3C5BC 75%,
+                #F3C5BC 85%
+              );
+          }
+
+.seccion{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.landingHomeTitle{
+    padding: 10vh 0 1vh 0;
+}
+
+.fotoMarco{
+    border: #ffffff solid 2vh;
+    height:40vw ;
+}
+
+/**************ESTILO HOME SERVICIOS**************/
+
+.servicios-1{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+
+}
+
+#serviciosDos img{
+    height: 32vw;
+}
+
+
+/***********ESTILO HOME TIENDA***********/
+
+
+
+
+.beige{
+    background-color: #F2E8DC;
+}
+
+.rosa{
+    background-color: #f5dbd4;
+}
+
+.celeste{
+    background-color: #7093b148;
+}
+
+/****************ESTILO SOBRE MI****************/
+
+/*Formato del parrafo del enbcabezado*/
+.seccionTop{
+    padding: 10vh 50vh 10vh 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+}
+
+.intro{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*Formato de la intro sobre el estudio*/
+.sobreMiDos{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px 200px 50px 200px;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+    animation: fadeInRight; 
+    animation-duration: 3s; 
+}
+
+.sobreMiTres{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px 200px 50px 200px;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+    animation: fadeInLeft; 
+    animation-duration: 3s; 
+}
+
+
+#sobreFridha{
+    display: flex;
+    flex-direction: column;
+}
+
+#imgSobreFridha{
+    margin: 50px;
+}
+
+
+
+
+/*Formato del Portafolio de Trabajos*/
+
+.portfolio{
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#imgPortfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgTop{
+    height: 50%;
+}
+
+/*ESTILO SERVICIOS*/
+
+
+
+
+.servicios{
+    background: url(./img/esmaltes.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-position: right top;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+/***********ESTILO HOME TIENDA***********/
+
+
+.containerHomeTienda{
+    display: grid;
+    grid-column: repeat(4, 1fr);
+    grid-row: 160px 80px 320px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    height: 560px;
+}
+
+.headerSeccion{
+    grid-column: 1/5;
+    text-align: center;
+}
+
+#bajadaTienda{
+    grid-column: 1/5;
+    text-align: center;
+    height: 50px;
+}
+
+.Tienda1{
+    width: 80%;
+    grid-column: 1;
+    grid-row: 3;
+    padding: 20px;
+}
+
+.item:hover{
+    width: 90%;
+    transition: all 1s;       
+}
+
+.Tienda2{
+    width: 80%;
+    grid-column: 2;
+    grid-row: 3;
+    padding: 20px;
+}
+
+.Tienda3{
+    width: 80%;
+    grid-column: 3;
+    grid-row: 3;
+    padding: 20px;
+}
+
+.Tienda4{
+    width: 80%;
+    grid-column: 4;
+    grid-row: 3;
+    padding: 20px;
+}
+
+.img {
+    height: auto;
+    max-width: 100%;
+    }
